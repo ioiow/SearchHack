@@ -935,7 +935,7 @@ function animateIPChange() {
             return Math.max(0, Math.min(255, newPart));
         }).join('.');
         
-        ipElement.textContent = `Ваш IP-адрес защищён: ${tempIP} (${targetIP.country})`;
+        ipElement.textContent = `IP address protected: ${tempIP} (${targetIP.country})`;
         step++;
         setTimeout(animateStep, stepTime);
     };
