@@ -923,7 +923,7 @@ function animateIPChange() {
     let step = 0;
     const animateStep = () => {
         if (step >= steps) {
-            ipElement.textContent = `Ваш IP-адрес защищён: ${targetIP.ip} (${targetIP.country})`;
+            ipElement.textContent = ` IP address protected: ${targetIP.ip} (${targetIP.country})`;
             return;
         }
         // Плавное изменение цифр
